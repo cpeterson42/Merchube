@@ -1,4 +1,4 @@
-.header {
+.navigation-header {
   top: 0;
   width: 100%;
   display: flex;
@@ -8,7 +8,7 @@
   justify-content: center;
   background-color: var(--dl-color-scheme-white);
 }
-.max-width {
+.navigation-max-width {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -19,17 +19,17 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.text {
+.navigation-text {
   font-size: 30px;
   font-family: DM Serif Display;
 }
-.root-class-name {
+.navigation-root-class-name {
   top: 0px;
   left: 0px;
   background-color: var(--dl-color-scheme-white);
 }
 @media(max-width: 767px) {
-  .max-width {
+  .navigation-max-width {
     padding: var(--dl-space-space-unit);
   }
 }

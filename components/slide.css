@@ -1,27 +1,27 @@
-.slide {
+.slide-slide {
   align-items: center;
   justify-content: center;
 }
-.max-wdith {
+.slide-max-wdith {
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
 }
-.text {
+.slide-text {
   color: var(--dl-color-scheme-white);
 }
-.root-class-name {
+.slide-root-class-name {
   background-color: #ff9b1d;
 }
-.root-class-name1 {
+.slide-root-class-name1 {
   background-color: #15bd19;
 }
-.root-class-name2 {
+.slide-root-class-name2 {
   background-color: var(--dl-color-scheme-brown);
 }
-.root-class-name3 {
+.slide-root-class-name3 {
   background-color: var(--dl-color-scheme-lightblue);
 }
-.root-class-name4 {
+.slide-root-class-name4 {
   background-color: var(--dl-color-scheme-darkblue);
 }
