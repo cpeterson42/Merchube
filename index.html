@@ -1,167 +1,435 @@
 <!DOCTYPE html>
-<html>
-<title>Merchube</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://merchube.w3spaces.com/style.css">
+<html lang="en">
+  <head>
+    <title>Creative Agency Page</title>
+    <meta property="og:title" content="Creative Agency Page" />
 
-<body>
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: DM Sans;
+        font-size: 16px;
+      }
 
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button"><b>Merchube |</b> For creators</a>
-            <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
-                <a href="#clients" class="w3-bar-item w3-button">Clients</a>
-                <a href="#about" class="w3-bar-item w3-button">About</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.3;
+        color: var(--dl-color-scheme-darkblue);
+        background-color: var(--dl-color-scheme-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      .services-card:hover > div{
+      background-color: #fff
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header
+          data-role="Header"
+          class="navigation-header navigation-root-class-name"
+        >
+          <div class="navigation-max-width">
+            <span class="navigation-text"><span>Merchube</span></span>
+            <div data-type="BurgerMenu" class="navigation-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navigation-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
             </div>
-        </div>
-    </div>
-
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-        <img class="w3-image" src="https://merchube.w3spaces.com/photographer-working-at-his-desk-crop.jpg?bypass-cache=71485907" alt="Creator at desk" width="1500" height="600" overflow = "hidden" style = "opacity:.7">
-        <div class="w3-display-middle w3-margin-top w3-center">
-            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Merchube</b></span></h1>
-        </div>
-    </header>
-
-    <!-- Page content -->
-    <div class="w3-content w3-padding" style="max-width:1564px">
-
-        <!-- Client Section -->
-        <div class="w3-container w3-padding-32" id="clients">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Clients</h3>
-        </div>
-
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-                    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%">
+            <div data-type="MobileMenu" class="mobile-menu">
+              <div class="navigation-nav">
+                <div class="navigation-container">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/logo1-1200w.png"
+                  />
+                  <div
+                    data-type="CloseMobileMenu"
+                    class="navigation-close-mobile-menu"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="navigation-icon2">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
                 </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-                    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-                    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-                    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="House" style="width:100%">
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-                    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-                    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-                    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-                    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="House" style="width:99%">
-                </div>
-            </div>
-        </div>
-
-        <!-- About Section -->
-        <div class="w3-container w3-padding-32" id="about">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-            <p>At Merchube, we believe high quality merchandise is an essential tool for building a community on YouTube. 
-                Great merchandise are pieces your fans keep at the top of their drawers. 
-                Instead of pasting the channel logo you photoshopped five years ago onto a shirt, 
-                our designers create designs your fans will love, and regularly refresh them as your brand evolves.
-                When you partner with us, our e-commerce experts create and maintain a custom store front, manage inventory, and handle all order logistics 
-                so that you can focus on creating content.
-            </p>
-        </div>
-<!--
-        <div class="w3-row-padding w3-grayscale">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-                <h3>John Dean</h3>
-                <p class="w3-opacity">CEO & Founder</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
-                <h3>Jane Morgan</h3>
-                <p class="w3-opacity">Architect</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
-                <h3>Mike Ross</h3>
-                <p class="w3-opacity">Architect</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
-                <h3>Dan Star</h3>
-                <p class="w3-opacity">Architect</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-            </div>
-        </div>
-
-        <div class="w3-container w3-padding-32" id="pricing">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Pricing</h3>
-            <p>We assume all start-up costs of your store, and take a portion of store profits. Contact us below to learn more:
-            </p>
-        </div>
--->
-        <!-- Contact Section -->
-        <div class="w3-container w3-padding-32" id="contact">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-            <p>Lets get in touch and talk about your next project.</p>
-            <form action="/action_page.php" target="_blank">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-                <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                <nav
+                  class="navigation-links-nav navigation-links-root-class-name18"
+                >
+                  <span class="navigation-links-text navigation-Link">
+                    <span>Home</span>
+                  </span>
+                  <span class="navigation-links-text1 navigation-Link">
+                    <span>About</span>
+                  </span>
+                  <span class="navigation-links-text2 navigation-Link">
+                    <span>Portfolio</span>
+                  </span>
+                  <span class="navigation-links-text3 navigation-Link">
+                    <span>Blog</span>
+                  </span>
+                </nav>
+                <button class="button-secondary button button-md">
+                  <span>Get in touch</span>
                 </button>
-            </form>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="home-main">
+          <div class="home-hero section-container">
+            <div class="home-max-width max-content-container">
+              <div class="home-heading-container">
+                <h1 class="home-text">
+                  We create merch your fans will keep at the top of their
+                  drawers.
+                </h1>
+                <form class="home-form"></form>
+                <span class="home-text01">
+                  <span>
+                    At Merchube, we believe high quality merchandise is an
+                    essential tool for building community on YouTube.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    Our designers create designs your fans will love, with
+                    regular new releases as your brand evolves.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    When you partner with us, our e-commerce experts create and
+                    maintain a custom store front, manage inventory, and handle
+                    all order logistics so that you can focus on creating
+                    content.
+                  </span>
+                </span>
+                <a
+                  href="#contactus"
+                  class="home-primary button-primary button-lg button"
+                >
+                  Get in touch with us
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="home-services section-container">
+            <div class="home-max-width1 max-content-container">
+              <div class="home-heading-container1">
+                <div class="home-text-container">
+                  <span class="home-text09">our services</span>
+                  <h2 class="heading2">
+                    <span>We handle everything it takes</span>
+                    <br />
+                    <span>to get merch to your fans</span>
+                  </h2>
+                </div>
+              </div>
+              <div class="home-cards-container">
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/file-document-200w.png"
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text"><span>Design</span></span>
+                  <span class="services-card-text1">
+                    <span>
+                      We work with you to create designs your fans love, with
+                      regular new releases
+                    </span>
+                  </span>
+                </div>
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/website-200h.png"
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text">
+                    <span>Storefront</span>
+                  </span>
+                  <span class="services-card-text1">
+                    <span>
+                      We design, host, and maintain a professional storefront to
+                      create a great purchasing experience
+                    </span>
+                  </span>
+                </div>
+                <div class="services-card">
+                  <div class="services-card-container">
+                    <img
+                      alt="image"
+                      src="public/playground_assets/dice-5-200h.png"
+                      class="services-card-image"
+                    />
+                  </div>
+                  <span class="services-card-text">
+                    <span>Operations</span>
+                  </span>
+                  <span class="services-card-text1">
+                    <span>
+                      We manage printing, fulfillment, and returns to ensure
+                      every fan is satisfied with their purchase
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-process section-container">
+            <div class="home-max-width2 max-content-container">
+              <span class="home-text14">Our process</span>
+              <h2 class="home-text15 heading2">How to get started</h2>
+              <div class="home-step">
+                <span class="home-text16">01</span>
+                <div class="home-container1">
+                  <span class="home-text17">
+                    Contact us by email or the form below
+                  </span>
+                  <span class="home-text18">
+                    We will set up a quick introductory meeting to get your
+                    design vision, answer any questions you may have, and begin
+                    preliminary designs.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step1">
+                <span class="home-text19">02</span>
+                <div class="home-container2">
+                  <span class="home-text20">
+                    Our designers work with you to bring your vision to life
+                  </span>
+                  <span class="home-text21">
+                    Our designers will work with you throughout the design
+                    process to make sure all published designs exceed your
+                    expectations. If you aren't initially satisfied, they will
+                    continue to iterate until you are.
+                  </span>
+                </div>
+              </div>
+              <div class="home-step2">
+                <span class="home-text22">03</span>
+                <div class="home-container3">
+                  <span class="home-text23">
+                    We launch your store, and begin fulfilling orders
+                  </span>
+                  <span class="home-text24">
+                    Depending on projected order volume, we can fulfill directly
+                    or with print-on-demand. We accept 30 day returns on all
+                    purchases, for any reason.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-container">
+            <div class="home-max-width3 max-content-container">
+              <h2 class="home-text25 heading2">Our business model</h2>
+              <span class="home-text26">
+                <span>
+                  All of our services come at no cost to you, and our
+                  no-commitment model means you can back out at any time, for
+                  any reason. We are confident that we can deliver a fantastic
+                  experience for you and your fans, and put our money where our
+                  mouths are.
+                </span>
+                <br />
+                <br />
+                <span>
+                  Our revenue comes as a percentage of sales to align our
+                  interests with yours - if you and your fans aren't happy,
+                  neither are we.&nbsp;
+                </span>
+                <br />
+              </span>
+            </div>
+          </div>
+          <div class="home-banner section-container">
+            <div id="contactus" class="home-max-width4 max-content-container">
+              <span class="home-text32">
+                Want to get started, or have further questions?
+              </span>
+              <h2 class="home-text33 heading2">
+                Contact us for a free consultation!
+              </h2>
+            </div>
+            <div class="home-container4">
+              <div class="home-container5">
+                <div class="home-container6"></div>
+              </div>
+              <div class="home-container7">
+                <div class="home-container8"></div>
+              </div>
+              <form
+                action="https://formsubmit.co/carlp0137@gmail.com"
+                method="POST"
+                enctype="application/x-www-form-urlencoded"
+                class="home-form1"
+              >
+                <label class="home-text34">
+                  Your Email (we only use this to reply to you)
+                </label>
+                <input
+                  type="text"
+                  name="email"
+                  required=""
+                  placeholder="your-email@example.com"
+                  class="home-textinput input"
+                />
+                <label class="home-text35">Message</label>
+                <input
+                  type="text"
+                  name="message"
+                  required=""
+                  placeholder="Message"
+                  class="home-textinput1 input"
+                />
+                <button type="submit" class="home-button button">
+                  <span>
+                    <span>Submit</span>
+                    <br />
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </main>
+        <div class="home-footer section-container">
+          <div class="max-content-container">
+            <div class="home-top-part">
+              <div class="home-links-container">
+                <div class="home-contact-container">
+                  <span class="home-text39">Contact Us</span>
+                  <span class="home-text40">
+                    <span>partners@merchube.com</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-separator"></div>
         </div>
-
-        <!-- Image of location/map -->
-        <div class="w3-container">
-            <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image" style="width:100%">
-        </div>
-
-        <!-- End page content -->
+      </div>
     </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script>
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllSliders();
+        };
 
-</body>
+        const listenForUrlChanges = () => {
+          let url = location.href;
+          document.body.addEventListener(
+            "click",
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts();
+                  url = location.href;
+                }
+              });
+            },
+            true
+          );
+        };
 
+        const initializeAllSliders = () => {
+          const allSliders = document.querySelectorAll('[data-type="slider"]');
+          allSliders.forEach((slider) => {
+            initializeSlider(slider);
+          });
+        };
+
+        const initializeSlider = (slider) => {
+          const slides = slider.querySelectorAll('[data-type="slide"]');
+          const middle = Math.ceil(slides.length / 2);
+          let currentSlide = middle;
+
+          const nextSlideBtns = document.querySelectorAll(
+            '[data-action="nextSlide"]'
+          );
+          const previousSlideBtns = document.querySelectorAll(
+            '[data-action="previousSlide"]'
+          );
+
+          const changeSlide = (slideIndex, action) => {
+            currentSlide = slideIndex;
+
+            switch (action) {
+              case "next":
+                slideIndex === slides.length
+                  ? (currentSlide = 1)
+                  : currentSlide++;
+                break;
+              case "previous":
+                slideIndex === 1
+                  ? (currentSlide = slides.length)
+                  : currentSlide--;
+            }
+
+            const slide = slides[0];
+            if (!slide) {
+              console.error("No slides present");
+              return;
+            }
+            const style = window.getComputedStyle(slide);
+            slideWidth =
+              parseInt(style.width) +
+              parseInt(style.marginLeft) +
+              parseInt(style.marginRight);
+            const transformValue = -slideWidth * (currentSlide - middle);
+
+            slider.style.transform = `translateX(${transformValue}px)`;
+          };
+
+          previousSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "previous")
+            );
+          });
+
+          nextSlideBtns.forEach((btn) => {
+            btn.addEventListener("click", () =>
+              changeSlide(currentSlide, "next")
+            );
+          });
+        };
+
+        runAllScripts();
+      };
+    </script>
+  </body>
 </html>
