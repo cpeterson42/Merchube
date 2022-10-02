@@ -1,4 +1,4 @@
-.copyright-copyright {
+.copyright {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -7,48 +7,48 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.copyright-max-width {
+.max-width {
   align-items: stretch;
 }
-.copyright-text {
+.text {
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;
 }
-.copyright-text01 {
+.text01 {
   font-style: normal;
   font-weight: 300;
 }
-.copyright-text04 {
-  font-style: normal;
-  font-weight: 300;
-  text-decoration: underline;
-}
-.copyright-text05 {
-  font-style: normal;
-  font-weight: 300;
-}
-.copyright-text08 {
+.text04 {
   font-style: normal;
   font-weight: 300;
   text-decoration: underline;
 }
-.copyright-text09 {
+.text05 {
   font-style: normal;
   font-weight: 300;
 }
-.copyright-text12 {
+.text08 {
   font-style: normal;
   font-weight: 300;
   text-decoration: underline;
 }
-.copyright-text13 {
+.text09 {
+  font-style: normal;
+  font-weight: 300;
+}
+.text12 {
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.text13 {
   font-style: normal;
   font-weight: 300;
 }
 @media(max-width: 991px) {
-  .copyright-max-width {
+  .max-width {
     flex-direction: column;
   }
 }

@@ -1,4 +1,4 @@
-.services-card-container {
+.container {
   width: 56px;
   height: 56px;
   display: flex;
@@ -8,14 +8,14 @@
   justify-content: center;
   background-color: rgba(182, 71, 47, 0.1);
 }
-.services-card-image {
+.image {
   width: 24px;
   height: 24px;
   object-fit: contain;
 }
-.services-card-text {
+.text {
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.services-card-text1 {
+.text1 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
